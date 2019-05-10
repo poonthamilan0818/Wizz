@@ -1,0 +1,117 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5969450500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.method1()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To verify the user profile is signed-in",
+        "description": "",
+        "id": "to-cerify-the-signin-functionality;to-verify-the-user-profile-is-signed-in",
+        "after": [
+          {
+            "result": {
+              "duration": 847807800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.method2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8173544800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is in Wizz home page",
+            "match": {
+              "location": "SignIn_Steps.the_user_is_in_Wizz_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 225737300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is to click the sign in option",
+            "match": {
+              "location": "SignIn_Steps.the_user_is_to_click_the_sign_in_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3064658500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user should navigate to Sign In window",
+            "match": {
+              "location": "SignIn_Steps.the_user_should_navigate_to_Sign_In_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 830828100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user to enter their mail id and passworn in sign fields",
+            "match": {
+              "location": "SignIn_Steps.the_user_to_enter_their_mail_id_and_passworn_in_sign_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10142068800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user click the Sign in button",
+            "match": {
+              "location": "SignIn_Steps.the_user_click_the_Sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10001240600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The use should see their profile is logged in",
+            "match": {
+              "location": "SignIn_Steps.the_use_should_see_their_profile_is_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To cerify the SignIn functionality",
+    "description": "",
+    "id": "to-cerify-the-signin-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/SgnIn.feature",
+    "tags": []
+  }
+]
